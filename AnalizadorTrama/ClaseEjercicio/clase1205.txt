@@ -1,0 +1,84 @@
+
+Implementar analizador UDP 
+- Mostrar los 4 campos
+
+Elaborar el reporte con base en las instrucciones de classroom para el   18 de Mayo 
+
+-LLC (Orientado a Bits)
+(Orientados a bytes)
+-ARP
+-IP
+-ICMP
+-TCP 
+-UDP 
+
+
+Buscar e instalar Wireshark deben probar como funciona para el 19 de Mayo.
+
+
+Ejercicios la próxima sesión (15 de Mayo)
+
+
+1.- Trama IP- ICMP con opciones imprimir opciones en hexadécimal 
+
+ejercicio(trama [i])
+
+printf("trama %d",i)
+if(tot==2048) // es IP
+   if (prot == 1) // ICMP 
+     if( IHL > 5) // IP CON OPCIONES 
+	printf("%.2x, 
+
+
+if(tot==2048) // es IP
+     if( IHL > 5) // IP CON OPCIONES 
+	  if (prot == 1) // ICMP 
+
+
+2.-Trama RNR-respuesta, imprimir N(S)   (considerar modo extendido)
+
+
+if (tot <1500)  // LLC
+	si 2LSB_CC=01 // t-s
+	    if (SS=1)// es RNR
+		if (pf=1)
+                   if(LSBsapo=1) //resp
+
+			printf("n(S)=%d",
+
+
+3.- La primera trama de una conexión orientada a conexión, imprimir MAC origen.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
